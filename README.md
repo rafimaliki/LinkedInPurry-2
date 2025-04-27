@@ -1,13 +1,18 @@
-# Milestone 2 - IF3110 Pengembangan Aplikasi Web LinkinPurry
+# Milestone 2 - IF3110 Pengembangan Aplikasi Web LinkedInPurry-2
+
+<div style="width: 70%; margin: 0 auto;">
+  <img src="image/20.png" alt="mockup" style="width: 100%; height: auto;" />
+</div>
 
 ## Web Description
-LinkinPurry is a web-based social media platform designed to help professionals expand their networks, share career-related information, and provide opportunities for real-time interaction with colleagues and industry peers. This system will be developed with a focus on responsive and efficient user experience using modern technologies such as REST API, React, WebSocket, and server-side notification techniques.
+
+LinkedInPurry is a web-based social media platform designed to help professionals expand their networks, share career-related information, and provide opportunities for real-time interaction with colleagues and industry peers. This system will be developed with a focus on responsive and efficient user experience using modern technologies such as REST API, React, WebSocket, and server-side notification techniques.
 
 ### Key Features:
 
 #### REST API Backend (Node.js)
 
-LinkinPurry utilizes a REST API built with Node.js as the main backend, handling all the business logic of the application. This API allows seamless communication between the frontend and backend, ensuring smooth data management and interaction across the platform.
+LinkedInPurry utilizes a REST API built with Node.js as the main backend, handling all the business logic of the application. This API allows seamless communication between the frontend and backend, ensuring smooth data management and interaction across the platform.
 All API endpoints will be optimized for high performance and fast responses.
 Real-Time Chat with WebSocket
 
@@ -61,23 +66,26 @@ cd if-3310-2024-2-k03-13
 ```sh
 docker-compose up --build
 ```
+
 4. **Access the available ports**:
-- `localhost:5173` : frontend 
-- `localhost:3000` : backend 
+
+- `localhost:5173` : frontend
+- `localhost:3000` : backend
 - `localhost:6379` : redis
 - `localhost:5432` : postgres
 - `localhost:5555` : prisma studio
 
 ## Person responsible of the task
-| Fitur                            | Penanggung Jawab           |
-|----------------------------------|----------------------------|
-| Authentication dan Authorization | 13522149                   |
-| Profil Pengguna                  | 13522145                   |
-| Koneksi antar Pengguna           | 13522137                   |
-| Feed                             | 13522145                   |
-| Chat dan websocket               | 13522137                   |
-| Notifikasi                       | 13522137                   |
-| Stress dan load test             | 13522137                   |
+
+| Fitur                            | Penanggung Jawab  |
+| -------------------------------- | ----------------- |
+| Authentication dan Authorization | 13522149          |
+| Profil Pengguna                  | 13522145          |
+| Koneksi antar Pengguna           | 13522137          |
+| Feed                             | 13522145          |
+| Chat dan websocket               | 13522137          |
+| Notifikasi                       | 13522137          |
+| Stress dan load test             | 13522137          |
 | Responsivitas                    | 13522145,13522149 |
-| Docker                           | 13522137                   |
-| Dokumentasi API                  | 13522137                   |
+| Docker                           | 13522137          |
+| Dokumentasi API                  | 13522137          |
