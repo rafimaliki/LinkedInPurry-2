@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  background-color: #f4f2ee;
+}
+
+.btn {
+  @apply h-fit w-28 px-3 py-1 mr-4 border rounded-3xl font-bold;
+}
+
+.btn-blue {
+  @apply border-[#0072b1] text-[#0072b1] hover:bg-[#0072b1] hover:text-white transition-all duration-200 ease-in-out;
+}
+
+.btn-red {
+  @apply border-[#C70000] text-[#C70000] hover:bg-[#C70000] hover:text-white transition-all duration-200 ease-in-out;
+}
+
+.btn-green {
+  @apply border-[#008000] text-[#008000] hover:bg-[#008000] hover:text-white transition-all duration-200 ease-in-out;
+}
+
+.btn-inactive {
+  @apply border-[#808080] text-[#808080] cursor-default;
+}
